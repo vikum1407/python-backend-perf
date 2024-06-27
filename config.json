@@ -1,0 +1,18 @@
+{
+    "image_name":"pawansx/tweet1",
+    "containers":[
+        {
+            "name":"lio1",
+            "port":{
+                "8080/tcp":8081
+            }
+        },
+        {
+            "name":"lio2",
+            "port":{
+                "8080/tcp":8082
+            }
+        }
+    ],
+    "docker_timeout":5
+}
